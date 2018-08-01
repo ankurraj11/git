@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <title>Page 2</title>
+  <!-- <link rel="stylesheet" href="./index.css" type="text/css"> -->
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> </script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>
+ 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> </script>
+
+
+
+  <style >
+
+  		body {
+   			background-image: url("green_paint.png");
+			}
+
+		.dropbtn {
+		    background-color: #4CAF50;
+		    position: fixed;
+		    color: white;
+		    left: 0px;
+		    top: 100px;
+		    padding: 16px;
+		    font-size: 16px;
+		    border: none;
+		    margin: 0px;
+		}
+
+		.footer {
+		   
+		    position: fixed;
+		    color: black;
+		    left: 500px;
+		    bottom : 100px;
+		    padding: 16px;
+		    font-size: 16px;
+		    border: none;
+		    margin: 0px;
+		    z-index: 1
+		}
+
+		.dropdown {
+		    position: fixed;
+		    left: 0;
+			top: 200;
+			width: 300px;
+		    display: inline-block;
+		}
+
+		.navigation{
+			position: absolute;
+		    left: 300px;
+		    top: 0px;
+		    z-index: 1;
+		}
+
+		img.shiva {
+		    position: absolute;
+		    left: 0px;
+		    top: 0px;
+		    z-index: 0;
+		    width: 150px;
+		    height: 95px;
+		    padding: 0px;
+		    margin: 0px;
+		}
+
+		img.back {
+
+		    min-height: 100%;
+			min-width: 1024px;
+				
+			  /* Set up proportionate scaling */
+			width: 100%;
+			height: auto;
+				
+			  /* Set up positioning */
+			position: fixed;
+			top: 0;
+			left: 0;
+		   
+		}
+
+		img.map {
+		    position: absolute;
+		    left: 300px;
+		    top: 80px;
+		  
+		    
+		    
+		    padding: 0px;
+		    margin: 0px;
+		}
+
+		.pie-chart{
+			position: absolute;
+		    right: 100px;
+		    top: 100px;
+		    z-index: 0
+		}
+
+		.dropdown-content {
+		    display: none;
+		    position: absolute;
+		    background-color: #f1f1f1;
+		    min-width: 160px;
+		    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		    z-index: 1;
+		}
+
+		.dropdown-content a {
+		    color: black;
+		    padding: 12px 16px;
+		    text-decoration: none;
+		    display: block;
+		}
+
+		.dropdown-content a:hover {background-color: #ddd}
+
+		.dropdown:hover .dropdown-content {
+		    display: block;
+		}
+
+		.dropdown:hover .dropbtn {
+		    background-color: #3e8e41;
+			}
+
+
+		</style>
+
+</head>
+
+<body>
+
+  <header>MIG</header>
+
+  	<main>
+
+      <h3 class = "navigation">This is the navigation section for map</h3>
+      <p> Map of State</p>
+
+    </main>
+
+
+    <aside class = 'pie-chart'>
+
+      <h3>This section for Pie Charts </h3>
+      
+      <img src= "piechart " alt = 'pie'>
+
+    </aside>
+
+
+  <img class = "shiva" src="/Users/AR/Desktop/UI/gui/publicmood/templates/publicmood/shiva-wallpaper.png" alt = 'TANDAV'>
+
+
+  <img src="map.png" class="img-circle map" alt="State Map">
+
+<!--   <img class = "shiva" src="/Users/AR/Desktop/UI/gui/publicmood/templates/publicmood/shiva-wallpaper.png" width="50" height = "50"> -->
+
+  <div class="dropdown">
+
+	  <button class="dropbtn">Select Category</button>
+
+	  <div class="dropdown-content">
+	    <a href="#">Agriculture</a>
+	    <a href="#">Corruption</a>
+	    <a href="#">Infrastructure</a>
+	    <a href="#">Healthcare</a>
+	    <a href="#">Education</a>
+	  </div>
+
+  </div>
+
+
+  <footer class = 'footer'> 
+  	<img src= "piechart " alt = 'pie'> 
+  	<h3> Statistical Summary </h3>
+  </footer>
+
+</body>
+
+</html>
+
